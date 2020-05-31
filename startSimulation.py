@@ -1,0 +1,3 @@
+import gravsim
+
+gravsim.runSimulation()

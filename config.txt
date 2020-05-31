@@ -1,0 +1,31 @@
+#Konfigurationsdatei
+#alle Zeilen nach "#" werden ignoriert
+#Aufbau: Variablenname=Wert
+
+#Gravitationskonstante angegeben in AU und Erdmassen
+gamma=1.1906e-19
+#Zeitschritt in s
+dt=1000
+#Breite und Höhe der Leinwand in AU
+physicWidth=5
+
+#Anzahl der Übersprungenen Positionen beim Abspeichern
+#Bei 2 wird z.B nur jede 2. berechnete Position gespeichert
+posSkip=100
+#Anzahl der maximal im Positionen Buffer gespeicherten Positionen
+#Wenn der Buffer voll ist werden die Daten in eine Datei gespeichert
+posBuffMaxSize=10000
+
+#Breite und Höhe der Leinwand in Pixeln
+cnvWidth=800
+#Anzahl der Schritte, welche übersprungen werden soll zum Updaten der Leinwand
+frameDrawingSkip=10
+#Anzahl der Positionen die Übersprungen werden soll zum Zeichnen der Bahnlinie (nur grafisch)
+tracerSkip=100
+#Anzahl der Maximal gespeicherten Bahnpunkte(nur grafisch)
+tracerMaxPoints=1000
+
+#Pfad für Planetendaten
+planetDataPath='PlanetData_small.xlsx'
+
+
